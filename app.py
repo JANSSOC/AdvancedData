@@ -56,7 +56,7 @@ app = Flask(__name__)
 def welcome():
     return (
         f"Welcome to the Vacation Climate API !<br/>"
-        f"Available Routes:{Base.classes.keys()}<br/>"
+        f"Available Routes from tables:{Base.classes.keys()}<br/>"
         f"/api/v1.0/precipitation<br/>"
         f"/api/v1.0/stations<br/>"
         f"/api/v1.0/tobs<br/>"
